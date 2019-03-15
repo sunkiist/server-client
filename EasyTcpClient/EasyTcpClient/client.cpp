@@ -89,7 +89,7 @@ int main() {
 		else if (0==strcmp(cmdBuf,"login")){
 			Login login;
 			strcpy(login.userName, "gyf");
-			strcpy(login.PassWord, "31415926yzl");
+			strcpy(login.PassWord, "33333333");
 			//向服务器发送数据
 			send(_sock, (const char*)&login, sizeof(login) , 0);
 			//接收服务器返回的数据
